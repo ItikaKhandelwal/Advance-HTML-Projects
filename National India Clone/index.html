@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India.gov.in - National Portal of India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div class="cookie-banner animate__animated animate__fadeInDown">
+        <div class="container">
+            <div class="cookie-content">
+                <p>This website uses cookies to provide a better user experience. By clicking accept, you agree to the policies outlined in the Cookie Settings.</p>
+                <div class="cookie-buttons">
+                    <button class="btn btn-customize">CUSTOMIZE COOKIES</button>
+                    <button class="btn btn-decline">DECLINE OPTIONAL COOKIES</button>
+                    <button class="btn btn-accept">ACCEPT ALL COOKIES</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header with Logo -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Indian Flag" class="flag-logo">
+                        <div class="logo-text">
+                            <h1 class="portal-name">india.gov.in</h1>
+                            <p class="portal-tagline">National Portal of India</p>
+                        </div>
+                    </div>
+                    <div class="beta-tag">BETA</div>
+                </div>
+                <div class="header-right">
+                    <div class="language-selector">
+                        <i class="fas fa-globe"></i>
+                        <select>
+                            <option>English</option>
+                            <option>Hindi</option>
+                        </select>
+                    </div>
+                    <button class="btn-skip">Skip to main content</button>
+                </div>
+            </div>
+            <p class="header-subtitle">Where Government Information Converges</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <ul class="nav-menu">
+                <li class="active"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-th-large"></i> Categories</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i> News</a></li>
+                <li><a href="#"><i class="fas fa-star"></i> Spotlight</a></li>
+                <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> My Government</a></li>
+                <li><a href="#"><i class="fas fa-compass"></i> Explore India</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Search -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="search-container animate__animated animate__fadeInUp">
+                <div class="search-header">
+                    <h2>Search for</h2>
+                    <div class="search-controls">
+                        <select class="category-select">
+                            <option>All Categories</option>
+                            <option>Schemes</option>
+                            <option>Services</option>
+                            <option>Documents</option>
+                            <option>News</option>
+                        </select>
+                        <button class="btn-search-main"><i class="fas fa-search"></i> Search</button>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search for services, schemes, information..." class="search-input">
+                </div>
+                <div class="trending-searches">
+                    <strong>Trending Searches:</strong> 
+                    <span class="trending-tag">Senior Citizen Registration</span> | 
+                    <span class="trending-tag">Online Marriage Registration</span> | 
+                    <span class="trending-tag">Ayushman Card</span> | 
+                    <span class="trending-tag">PAN Card Services</span> | 
+                    <span class="trending-tag">Jeevan Pramaan</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card animate__animated animate__fadeInLeft">
+                    <div class="stat-number" data-count="14338">14338</div>
+                    <div class="stat-label">Online Services</div>
+                </div>
+                <div class="stat-card animate__animated animate__fadeInLeft" style="animation-delay: 0.1s">
+                    <div class="stat-number" data-count="4580">4580</div>
+                    <div class="stat-label">Govt. Schemes</div>
+                </div>
+                <div class="stat-card animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
+                    <div class="stat-number" data-count="5446">5446</div>
+                    <div class="stat-label">Citizen Engagements</div>
+                </div>
+                <div class="stat-card animate__animated animate__fadeInLeft" style="animation-delay: 0.3s">
+                    <div class="stat-number" data-count="3871">3871</div>
+                    <div class="stat-label">Tourist Places</div>
+                </div>
+                <div class="stat-card animate__animated animate__fadeInLeft" style="animation-delay: 0.4s">
+                    <div class="stat-number" data-count="1207">1207</div>
+                    <div class="stat-label">ODOP Products</div>
+                </div>
+                <div class="stat-card animate__animated animate__fadeInLeft" style="animation-delay: 0.5s">
+                    <div class="stat-number" data-count="18">18</div>
+                    <div class="stat-label">Information Categories</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Services -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-laptop"></i> Online Services</h2>
+                <a href="#" class="view-all-btn">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate__animated animate__zoomIn">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="service-number">1206+</div>
+                    <div class="service-label">CENTRAL GOVT.</div>
+                </div>
+                <div class="service-card animate__animated animate__zoomIn" style="animation-delay: 0.1s">
+                    <div class="service-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div class="service-number">12657+</div>
+                    <div class="service-label">STATE GOVT.</div>
+                </div>
+                <div class="service-card animate__animated animate__zoomIn" style="animation-delay: 0.2s">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="service-number">33</div>
+                    <div class="service-label">IMP. SERVICES</div>
+                </div>
+                <div class="service-card animate__animated animate__zoomIn" style="animation-delay: 0.3s">
+                    <div class="service-icon">
+                        <i class="fas fa-list"></i>
+                    </div>
+                    <div class="service-number">18</div>
+                    <div class="service-label">CATEGORY</div>
+                </div>
+            </div>
+            <p class="services-tagline">Available online Services & Save time</p>
+            
+            <!-- Service Examples -->
+            <div class="service-examples">
+                <div class="service-example">
+                    <i class="fas fa-briefcase"></i>
+                    <span>National Career Service for Job Seekers and Employers</span>
+                </div>
+                <div class="service-example">
+                    <i class="fas fa-stethoscope"></i>
+                    <span>eSanjeevani - National Telemedicine Service</span>
+                </div>
+                <div class="service-example">
+                    <i class="fas fa-piggy-bank"></i>
+                    <span>BHAVISHYA - Pension Sanction and Payment...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Two Column Layout -->
+    <div class="two-column-section">
+        <div class="container">
+            <div class="two-column-grid">
+                <!-- Left Column - Categories -->
+                <div class="left-column">
+                    <div class="section-header">
+                        <h2 class="section-title"><i class="fas fa-list-alt"></i> Information Categories</h2>
+                        <a href="#" class="view-all-btn">View All <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="categories-list">
+                        <div class="category-item">
+                            <div class="category-icon">
+                                <i class="fas fa-tractor"></i>
+                            </div>
+                            <div class="category-content">
+                                <h3>Agriculture, Rural & Environment</h3>
+                                <p>Agriculture is central to India's economy, particularly in rural areas where it enhances GDP and livelihoods. This sector employs...</p>
+                            </div>
+                        </div>
+                        <div class="category-item">
+                            <div class="category-icon">
+                                <i class="fas fa-hands-helping"></i>
+                            </div>
+                            <div class="category-content">
+                                <h3>Benefits & Social development</h3>
+                                <p>This section focuses on enhancing citizen welfare by providing information on benefits, subsidies, and support for various social...</p>
+                            </div>
+                        </div>
+                        <div class="category-item">
+                            <div class="category-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="category-content">
+                                <h3>Business & Self-employed</h3>
+                                <p>Details on India's trade infrastructure, regulations, and policies are provided to support both domestic and international commerce. This...</p>
+                            </div>
+                        </div>
+                        <div class="category-item">
+                            <div class="category-icon">
+                                <i class="fas fa-passport"></i>
+                            </div>
+                            <div class="category-content">
+                                <h3>Citizenship, Visa & Passports</h3>
+                                <p>Covering India's diplomatic engagements, this section provides detailed information on visa and passport services and offers support...</p>
+                            </div>
+                        </div>
+                        <div class="category-item">
+                            <div class="category-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="category-content">
+                                <h3>Defence & Foreign affairs</h3>
+                                <p>This section addresses India's defence and foreign affairs, which are crucial for national security and global diplomacy. It provides insights...</p>
+                            </div>
+                        </div>
+                        <div class="category-item">
+                            <div class="category-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <div class="category-content">
+                                <h3>Driving & Transport</h3>
+                                <p>This section offers key information on driving and transport, essential for the country's growth. It covers aviation, railways, roads, waterway...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - News & Spotlight -->
+                <div class="right-column">
+                    <!-- News Section -->
+                    <div class="news-section">
+                        <div class="section-header">
+                            <h2 class="section-title"><i class="fas fa-newspaper"></i> News / Press Release</h2>
+                            <p class="section-subtitle">Your Gateway to Authentic News</p>
+                        </div>
+                        
+                        <div class="news-list">
+                            <div class="news-item">
+                                <div class="news-source">News on AIR</div>
+                                <h3 class="news-title">Himachal Pradesh CM Sukhvinder Sukhu announces ₹4,300 crore investment to overhaul state healthcare</h3>
+                                <div class="news-meta">
+                                    <span><i class="far fa-clock"></i> 2 hours ago</span>
+                                    <a href="#" class="read-more">Read more →</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-source">News on AIR</div>
+                                <h3 class="news-title">Himachal Pradesh: Child sex ratio increases from 947 to 964 in last three years</h3>
+                                <div class="news-meta">
+                                    <span><i class="far fa-clock"></i> 4 hours ago</span>
+                                    <a href="#" class="read-more">Read more →</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-source">PIB</div>
+                                <h3 class="news-title">Journalists team from Ahmedabad arrives in Nagaland</h3>
+                                <div class="news-meta">
+                                    <span><i class="far fa-clock"></i> 6 hours ago</span>
+                                    <a href="#" class="read-more">Read more →</a>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-source">PIB</div>
+                                <h3 class="news-title">Fit India Sundays on Cycle turns Hyderabad into a Carnival of Sports and Fitness</h3>
+                                <div class="news-meta">
+                                    <span><i class="far fa-clock"></i> 1 day ago</span>
+                                    <a href="#" class="read-more">Read more →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Spotlight Section -->
+                    <div class="spotlight-section">
+                        <div class="section-header">
+                            <h2 class="section-title"><i class="fas fa-star"></i> Spotlight</h2>
+                            <p class="section-subtitle">Stories from the Core of Our Nation</p>
+                        </div>
+                        
+                        <div class="spotlight-main">
+                            <div class="spotlight-featured">
+                                <div class="spotlight-badge">VIKSIT BHARAT - GRAM ACT 2025</div>
+                                <h3 class="spotlight-title">Reforming MGNREGA for Viksit Bharat</h3>
+                                <div class="spotlight-date">January 2026</div>
+                                <p class="spotlight-desc">Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin)</p>
+                            </div>
+                            
+                            <div class="spotlight-list">
+                                <div class="spotlight-item">
+                                    <div class="spotlight-date">December 2025</div>
+                                    <h4 class="spotlight-item-title">New Labour Code for New India - Biggest Labour Reforms in Independent India</h4>
+                                </div>
+                                <div class="spotlight-item">
+                                    <div class="spotlight-date">November 2025</div>
+                                    <h4 class="spotlight-item-title">Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs (PM-SETU)</h4>
+                                </div>
+                                <div class="spotlight-item">
+                                    <div class="spotlight-date">October 2025</div>
+                                    <h4 class="spotlight-item-title">GST Reforms 2025</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links -->
+    <section class="quicklinks-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Quick Links</h2>
+            </div>
+            <div class="quicklinks-grid">
+                <a href="#" class="quicklink-card animate__animated animate__flipInX">
+                    <div class="quicklink-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="quicklink-text">CPGRAMS</div>
+                </a>
+                <a href="#" class="quicklink-card animate__animated animate__flipInX" style="animation-delay: 0.1s">
+                    <div class="quicklink-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="quicklink-text">Right to Information</div>
+                </a>
+                <a href="#" class="quicklink-card animate__animated animate__flipInX" style="animation-delay: 0.2s">
+                    <div class="quicklink-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="quicklink-text">data.gov.in</div>
+                </a>
+                <a href="#" class="quicklink-card animate__animated animate__flipInX" style="animation-delay: 0.3s">
+                    <div class="quicklink-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="quicklink-text">PM INDIA</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mann Baat Section -->
+    <section class="mannbaat-section">
+        <div class="container">
+            <div class="mannbaat-container">
+                <div class="mannbaat-content">
+                    <h3>Share your ideas & Suggestions with PM for</h3>
+                    <h2>Mann Baat</h2>
+                    <p>on 25th January 2026</p>
+                    <button class="btn-mannbaat">Submit Your Idea</button>
+                </div>
+                <div class="mannbaat-image">
+                    <div class="mic-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4 class="footer-title">Category</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Agriculture, Rural & Environment</a></li>
+                        <li><a href="#">Benefits & Social development</a></li>
+                        <li><a href="#">Business & Self-employed</a></li>
+                        <li><a href="#">Citizenship, Visa & Passports</a></li>
+                        <li><a href="#">Defence & Foreign affairs</a></li>
+                        <li><a href="#">Driving & Transport</a></li>
+                        <li><a href="#">Education & Learning</a></li>
+                        <li><a href="#">Governance & Planning</a></li>
+                        <li><a href="#">Health & Wellness</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">My Government</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Acts & Rules</a></li>
+                        <li><a href="#">Schemes</a></li>
+                        <li><a href="#">Constitution of India</a></li>
+                        <li><a href="#">Documents</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Who's Who</a></li>
+                        <li><a href="#">Contact Directory</a></li>
+                        <li><a href="#">Web Directory</a></li>
+                        <li><a href="#">Public Utilities</a></li>
+                        <li><a href="#">Helpline</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Explore India</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Travel & Tourism</a></li>
+                        <li><a href="#">Culinary Delights</a></li>
+                        <li><a href="#">One District One Product</a></li>
+                        <li><a href="#">Facts of India</a></li>
+                        <li><a href="#">News Hub</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">About Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Link to Us</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Tell a Friend</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Calendar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Spotlights</a></li>
+                        <li><a href="#">Visitor Summary</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Website Policy</a></li>
+                        <li><a href="#">Subscribe to Newsletter</a></li>
+                        <li><a href="#">App Privacy Policy</a></li>
+                        <li><a href="#">Content Sources</a></li>
+                        <li><a href="#">India Portal 2.0 Brochure (Beta version)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <div class="footer-social">
+                        <h4 class="footer-title">View on Mobile</h4>
+                        <div class="qr-code">
+                            <div class="qr-placeholder">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Scan to view on mobile</span>
+                            </div>
+                        </div>
+                        <h4 class="footer-title">Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Disclaimer -->
+            <div class="footer-disclaimer">
+                <h5>Translation Disclaimer</h5>
+                <p>Translations of the content into languages other than English are generated using automated tools and may not always be accurate. These translations are provided for informational purposes only and should not be considered authoritative.</p>
+                
+                <p class="footer-note">India Portal is developed under the Digital India Programme to provide citizens with open and easy access to information. It is designed, developed, and maintained by the National Informatics Centre (NIC), under the Ministry of Electronics & Information Technology, Government of India. The content available on India Portal is owned and managed by the respective Ministries and Departments.</p>
+                
+                <p class="last-updated">Last reviewed and updated on 10 January 2026 at 12:54:38 pm</p>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 National Portal of India, Government of India. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Accessibility Statement</a>
+                    <a href="#">Copyright Policy</a>
+                    <a href="#">Hyperlinking Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Chatbot -->
+    <div class="floating-chatbot">
+        <div class="chatbot-icon">
+            <i class="fas fa-robot"></i>
+        </div>
+        <div class="chatbot-label">Help Assistant</div>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
